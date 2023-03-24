@@ -1,0 +1,174 @@
+#someselector {
+    all: initial;
+  }
+  
+  #someselector * {
+    all: unset
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(210, 46%, 95%);
+}
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 1150px;
+    height: 580px;
+}
+
+.kira{
+    width: 70%;
+    background-color: white;
+    height: 104%;
+}
+.small{
+    padding-right: 1.5rem;
+
+}
+.up{
+    display: flex;
+    height: 50%;
+    gap: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+.down{
+    display: flex;
+    height: 50%;
+    gap: 1.7rem;
+}
+
+.daniel{
+    width: 70%;
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+}
+
+.jonathan{
+    width: 30%;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+
+.patrick{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+
+.jeanette{
+    background-color: white;
+}
+
+.patrick,.jeanette,.jonathan,.daniel,.kira{
+    padding: 2.2rem;
+    border-radius: 0.7rem;
+}
+
+h3{
+    font-size: 1.3rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+p{
+    font-size: 0.75rem;
+    margin: 0;
+    color:hsla(0, 0%, 79%, 0.563);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.names{
+    margin: 0;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+img{
+    border-radius: 50%;
+    width: 2.2rem;
+    margin-right: 15px;
+}
+
+.svg{
+    position: absolute;
+    z-index: 0;
+    margin-left: 19%;
+    bottom: 73.8%;
+}
+
+@media (max-width:1200px){
+    .container{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width:90%;
+        height: 580px;
+    }
+}
+
+@media (max-width:800px){
+    .container{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        width: 80%;
+    }
+    .up{
+        display: flex;
+        height: 50%;
+        gap: 1.7rem;
+        margin-bottom: 1.5rem;
+        flex-direction: column;
+    }
+    .down{
+        display: flex;
+        height: 50%;
+        gap: 1.7rem;
+        flex-direction: column;
+    }
+    .svg{
+        position: absolute;
+        z-index: 0;
+        margin-left: 30%;
+        bottom: 73.8%;
+    }
+.daniel{
+    width: 106.5%;
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+}
+
+.jonathan{
+    width: 106.5%;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+
+.patrick{
+    width: 106.5%;
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+
+.jeanette{
+    width: 106.5%;
+    background-color: white;
+}
+
+.patrick,.jeanette,.jonathan,.daniel,.kira{
+    padding: 2.2rem;
+    border-radius: 0.7rem;
+}
+.kira{
+    width: 100%;
+    position: relative;
+    top: 6%;
+}
+}
